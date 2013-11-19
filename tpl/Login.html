@@ -1,0 +1,52 @@
+<div class="tabbable custom-tabs shadow modal" id="login_box" style="top:20%">
+   <div class="tab-content">
+    <form class="form-horizontal" name="loginForm" id="loginForm">
+
+        <legend>Login</legend>
+        <div class="alert alert-error" id="errorMessage" style="display:none;"></div>
+        <div class="control-group">
+            <label class="control-label" for="emailID">Email ID</label>
+            <div class="controls">
+                <input type="email" required id="emailID" name="emailID" placeholder="email id">
+            </div>
+        </div>
+        <div class="control-group">
+            <label class="control-label" for="password">Password</label>
+            <div class="controls">
+                <input type="password" id="password" name="password" placeholder="Password">
+            </div>
+        </div>
+        <div class="control-group">
+            <div class="controls">
+                <label class="checkbox">
+                    <input type="checkbox" id="remember" /> Remember me
+                </label>
+                <button type="button" class="btn" id="login" name="login">Sign in &nbsp;&nbsp; <i class="icon-chevron-sign-right"></i></button>
+            </div>
+        </div>
+    </form>
+            <div class="control-group ">
+                <div class="controls pull-right">
+                    <a href="#" id="forgot_password"> Forgot your Password? </a>
+                </div>
+            </div>
+           <br/>
+            <div id="password_message"> </div>
+            <div class="control-group ">
+
+                <div class="controls pull-right">
+
+                    <div class="input-append" id="forgotPassword" style="display:none;">
+                        <input class="span2" id="userId" name="userId" placeholder="User ID" type="text">
+                        <button class="btn" id="forgot_password_submit" type="button">Submit</button>
+                    </div>
+                </div>
+            </div>
+ </div>
+</div>
+
+<div class="navbar navbar-fixed-bottom" style="position: fixed; padding-left: 20px;">
+    <div class="container" style="border-top:1px solid #ccc; padding:5px">
+        <p><a href="#">About vMobile</a> (0.1.35.2)</p>
+    </div>
+</div>

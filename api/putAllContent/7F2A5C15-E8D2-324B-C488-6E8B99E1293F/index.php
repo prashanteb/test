@@ -1,0 +1,4 @@
+<?php
+	echo '{"_id":"260D350C-D1AC-F634-D9C7-FF5C2BA25008","eventName":"add event 4","eventDetails":" details in event 5 sd asd","referenceId":"Reference Id","createdBy":"51fca9d6a897c037d0c3efa0","dateCreated":"Sep 16, 2013 12:54:13 PM","modifiedBy":"51fc8b39012ab7eea89bc9bd","modifiedDate":"Sep 16, 2013 2:34:23 PM","status":"open","address":[{"_id":"52374733faadec24aa9e66a2","addressLine1":"hyd1 ","addressLine2":"","city":"Chicago","state":"AK","zipCode":"3234","geoX":"","geoY":"","country":"US"}],"contents":[{"id":"5237465dfaadec24aa9e669c","contentType":"image/png","tags":[]},{"id":"5237470dfaadec24aa9e66a0","contentType":"video/mp4","thumbnail":"images/videothumbnail.png","tags":[]},{"id":"523759b1faadec24aa9e66ab","contentType":"image/jpeg","tags":["5218135d30045ada5f029408"]},{"id":"52375d3ffaadec24aa9e66b0"}],"members":["52311129a8973b17c82e9e5b","52311169a8973b17c82e9e63"],"tags":["5216b6b3300448564dc0db7e","5216b6f9300448564dc0db83"]}';
+
+?>
